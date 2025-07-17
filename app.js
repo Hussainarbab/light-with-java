@@ -28,30 +28,34 @@
 //     alert("not valid input")
 // }
 // alert(day)
-let a = Number(prompt("Enter a number")); // Convert input to number
+// let a = Number(prompt("Enter a number"));
 
-switch (a) {
-  case 1:
-    alert("Monday");
-    break;
-  case 2:
-    alert("Tuesday");
-    break;
-  case 3:
-    alert("Wednesday");
-    break;
-  case 4:
-    alert("Thursday");
-    break;
-  case 5:
-    alert("Friday");
-    break;
-  case 6:
-    alert("Saturday");
-    break;
-  case 7:
-    alert("Sunday");
-    break;
-  default:
-    alert("Not a valid input");
+// switch (a) {
+//   case 1:
+//     alert("Monday");
+//     break;
+//   case 2:
+//     alert("Tuesday");
+//     break;
+//   case 3:
+//     alert("Wednesday");
+//     break;
+//   case 4:
+//     alert("Thursday");
+//     break;
+//   case 5:
+//     alert("Friday");
+//     break;
+//   case 6:
+//     alert("Saturday");
+//     break;
+//   case 7:
+//     alert("Sunday");
+//     break;
+//   default:
+//     alert("Not a valid input");
+// }
+
+function change(){
+    document.getElementById("chng").innerText ="button was clicked"
 }
