@@ -56,6 +56,25 @@
 //     alert("Not a valid input");
 // }
 
-function change(){
-    document.getElementById("chng").innerText ="button was clicked"
+function black() {
+  document.getElementById("chng").style.backgroundColor = "black";
 }
+function green() {
+  document.getElementById("chng").style.backgroundColor = "green";
+}
+function red() {
+  document.getElementById("chng").style.backgroundColor = "red";
+}
+function yellow() {
+  document.getElementById("chng").style.backgroundColor = "yellow";
+}
+function orange() {
+  document.getElementById("chng").style.backgroundColor = "orange";
+}
+function brown() {
+  document.getElementById("chng").style.backgroundColor = "brown";
+}
+function aqua() {
+  document.getElementById("chng").style.backgroundColor = "aqua";
+}
+
